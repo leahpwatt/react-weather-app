@@ -1,6 +1,6 @@
 export const requestUrl = (lat, lon) => {
   const key = "b9c5bc33bff97fe332e879d054cebbda";
-  return `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&APPID=${key}`;
+  return `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&APPID=${key}`;
 };
 
 export const currentLocation = () => {
