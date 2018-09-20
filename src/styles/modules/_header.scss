@@ -1,0 +1,18 @@
+.header {
+  padding-bottom: 50px;
+  font-size: 1.5em;  
+  padding-top: 100px;  
+  text-align: center;   
+  a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: $marigold;
+    padding-bottom: 4px;
+    &.active {
+      border-bottom: 3px solid $screen;
+    }
+    &:hover {
+      color: $marigold-dark;
+    }
+  }
+}

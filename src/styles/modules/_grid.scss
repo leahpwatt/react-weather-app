@@ -1,0 +1,10 @@
+.grid {
+  margin: 0 100px;  
+  padding-bottom: 100px;
+  h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    border-bottom: 3px solid $screen;
+    padding-bottom: 10px;
+  }
+}
